@@ -105,7 +105,7 @@ namespace CrudOperations.Controllers
         }
 
         [HttpPatch]
-        public async Task<IActionResult> UpdateStockSalaryById(UpdateSalaryByIdRequest request)
+        public async Task<IActionResult> UpdateStockSalaryById(UpdateUnitPrinceByIdRequest request)
         {
             UpdateRecordByIdResponse response = new UpdateRecordByIdResponse();
             try

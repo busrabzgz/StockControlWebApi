@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 
 namespace CrudOperations.Model.StockModel
 {
-    public class UpdateSalaryByIdRequest
+    public class UpdateUnitPrinceByIdRequest
     {
         [Required]
-        public string Id { get; set; }
+        public required string Id { get; set; }
 
         [Required]
         public double UnitPrice { get; set; }
