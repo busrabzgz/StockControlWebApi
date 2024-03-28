@@ -42,6 +42,7 @@ Swagger UI, mevcut tüm API endpoint'lerini ve bu endpoint'lere nasıl istek gö
 ![StockCrud Api](Ekran%20Resmi%202024-03-28%2022.05.43.png)
 ![Api Test Request](Ekran%20Resmi%202024-03-28%2022.05.26.png)
 ![Api Test Response](Ekran%20Resmi%202024-03-28%2022.05.35.png)
+![Mongo Db Api Test Dogrulama](Ekran%20Resmi%202024-03-28%2022.05.35.png)
 
 
 
