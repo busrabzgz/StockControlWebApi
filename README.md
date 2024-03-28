@@ -30,7 +30,7 @@ Bu bölüm, projeyi yerel geliştirme ortamınızda nasıl çalıştıracağın�
 
 ### 📝 API'leri Test Etme
 
-Projeyi çalıştırdıktan sonra, Swagger UI otomatik olarak varsayılan web tarayıcınızda açılacaktır. Eğer otomatik olarak açılmazsa, web tarayıcınızda `https://localhost:5001/swagger` adresine giderek API belgelerine ulaşabilirsiniz.
+Projeyi çalıştırdıktan sonra, Swagger UI otomatik olarak varsayılan web tarayıcınızda açılacaktır. Eğer otomatik olarak açılmazsa, web tarayıcınızda `https://localhost:44307/swagger/index.html` adresine giderek API belgelerine ulaşabilirsiniz.
 
 Swagger UI, mevcut tüm API endpoint'lerini ve bu endpoint'lere nasıl istek gönderileceğini gösteren bir arayüz sağlar. Her bir endpoint için;
 
