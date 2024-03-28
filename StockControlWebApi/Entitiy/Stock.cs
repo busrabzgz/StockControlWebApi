@@ -11,19 +11,21 @@ namespace CrudOperations.Entitiy
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public string Id { get; set; }
+        public string? Id { get; set; }
+
+
 
         [BsonElement("ProductCode")]
         [Required]
-        public string ProductCode { get; set; }
+        public string? ProductCode { get; set; }
 
         [BsonElement("ProductName")]
         [Required]
-        public string ProductName { get; set; }
+        public string? ProductName { get; set; }
 
         [BsonElement("Category")]
         [Required]
-        public string Category { get; set; }
+        public string? Category { get; set; }
 
         [BsonElement("StockQuantity")]
         [Required]
@@ -36,11 +38,11 @@ namespace CrudOperations.Entitiy
         public double UnitPrice { get; set; }
 
         [BsonElement("Supplier")]
-        public string Supplier { get; set; }
+        public string? Supplier { get; set; }
 
-        public string CreatedDate { get; set; }
+        public string? CreatedDate { get; set; }
 
-        public string UpdatedDate { get; set; }
+        public string? UpdatedDate { get; set; }
 
 
         public List<InsertStockRecordRequest> Requests { get; set; } = new List<InsertStockRecordRequest>();
