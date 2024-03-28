@@ -37,10 +37,11 @@ Swagger UI, mevcut tüm API endpoint'lerini ve bu endpoint'lere nasıl istek gö
 - **Try it out** butonuna tıklayarak API isteği yapabilir,
 - Gerekli parametreleri girerek test isteklerini gönderebilir,
 - API'nin dönüş yapısını ve durum kodlarını görebilirsiniz.
-- 
+  
 ### 📝 API Gorselleri
-![Ekran Resmi 1](Ekran%20Resmi%202024-03-28%2022.05.26.png)
-![Ekran Resmi 2](Ekran%20Resmi%202024-03-28%2022.05.35.png)
-![Ekran Resmi 3](Ekran%20Resmi%202024-03-28%2022.05.43.png)
+![StockCrud Api](Ekran%20Resmi%202024-03-28%2022.05.43.png)
+![Api Test Request](Ekran%20Resmi%202024-03-28%2022.05.26.png)
+![Api Test Response](Ekran%20Resmi%202024-03-28%2022.05.35.png)
+
 
 
