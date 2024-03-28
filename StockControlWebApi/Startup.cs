@@ -28,10 +28,7 @@ namespace CrudOperations
         {
 
             services.AddControllers();
-            //services.AddSwaggerGen(c =>
-            //{
-            //    c.SwaggerDoc("v1", new OpenApiInfo { Title = "CrudOperations", Version = "v1" });
-            //});
+
             services.AddSwaggerGen();
 
             services.AddScoped<IStockCrudOperationDL, StockCrudOperationDL>();
