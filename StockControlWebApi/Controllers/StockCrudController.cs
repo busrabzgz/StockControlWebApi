@@ -105,12 +105,12 @@ namespace CrudOperations.Controllers
         }
 
         [HttpPatch]
-        public async Task<IActionResult> UpdateStockSalaryById(UpdateUnitPrinceByIdRequest request)
+        public async Task<IActionResult> UpdateStockUnitPrinceById(UpdateUnitPrinceByIdRequest request)
         {
             UpdateRecordByIdResponse response = new UpdateRecordByIdResponse();
             try
             {
-                response = await _stockCrudOperationDL.UpdateStockSalaryById(request);
+                response = await _stockCrudOperationDL.UpdateStockUnitPrinceById(request);
             }
             catch (Exception ex)
             {

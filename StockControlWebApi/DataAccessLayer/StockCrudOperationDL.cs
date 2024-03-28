@@ -149,7 +149,7 @@ namespace CrudOperations.DataAccessLayer
             return response;
         }
 
-        public async Task<UpdateRecordByIdResponse> UpdateStockSalaryById(UpdateUnitPrinceByIdRequest request)
+        public async Task<UpdateRecordByIdResponse> UpdateStockUnitPrinceById(UpdateUnitPrinceByIdRequest request)
         {
             UpdateRecordByIdResponse response = new UpdateRecordByIdResponse();
             response.IsSuccess = true;
